@@ -1,0 +1,132 @@
+body{
+    background-image: linear-gradient(to right,black , grey);
+    color:white;
+    margin: 0;                   /* Remove default margins */
+    padding: 0; 
+    
+}
+
+.header{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100%;       
+    width: 100%;
+
+   
+
+
+
+}
+.header-list{
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;             /* Optional: removes default margin */
+    padding: 0;            /* Optional: removes default padding */
+    display: flex;   
+    color: white;
+    
+}
+
+li{
+    margin-right: 60px;
+    font-size: 25px;
+
+}
+
+.left-div-buttons{
+    background-color: black;
+    color:white;
+    height: 60px;
+    width: 100px;
+    
+    font-size: large;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+
+
+}
+.main-div{
+   
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;                   /* Remove default margins */
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 800px;
+    width: 1500px;
+    margin-top: 30px;
+    margin-left: 210px;
+    border-radius: 20px;
+    
+
+   
+   
+}
+.bottom-div{
+    display: block;
+}
+footer{
+    margin-top: 10px;
+    height: 100%;
+}
+.name-text{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+.left-div-buttons{
+    margin-right: 10px;
+    border: none;
+
+}
+.right-div-text{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    margin-left: 50px;
+}
+.right-h1{
+    
+}
+.right-div-text-two{
+    margin-left: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+.resume-button{
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid red;
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    width: 100px;
+    height: 60px;
+
+
+   
+
+}
+.contact-button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid red;
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    width: 150px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+
